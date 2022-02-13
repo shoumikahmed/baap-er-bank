@@ -24,6 +24,8 @@
 // })
 
 
+//////   module:27-8 and module:27-9 number video bar bar dekha lagbe  //////
+
 function getInputValue(inputId) {
     const inputField = document.getElementById(inputId)
     const inputAmountText = inputField.value;
@@ -56,6 +58,9 @@ function updateBalance(amount, isAdd) {
         balanceTotal.innerText = newBalanceTotal;
     }
 }
+
+
+//////   module:27-8 and module:27-9 number video bar bar dekha lagbe  //////
 
 
 document.getElementById('deposit-button').addEventListener('click', function () {
